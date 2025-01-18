@@ -64,7 +64,7 @@ OBJ_PATHNAME=$(SRC_PATHNAME)/obj
 MY_OSX_SDKS_PATHNAME=$(BUILD)/$(OS_NAME)/SDKs
 
 ##################################################################
-MY_OSX_MIN:=11.3
+MY_OSX_MIN:=10.14
 MY_OSX_SDK_NAME=MacOSX$(MY_OSX_MIN).sdk
 MY_OSX_SDK=$(MY_OSX_SDKS_PATHNAME)/$(MY_OSX_SDK_NAME)
 MY_OSX_SDK_TARBALL_PATHNAME:=Tarballs/$(MY_OSX_SDK_NAME).tar.xz
